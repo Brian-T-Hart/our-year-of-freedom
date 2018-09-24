@@ -195,3 +195,11 @@ p {
 	from {opacity: 0;}
 	to {opacity: 0.5;}
 }
+
+@media only screen and (max-width: 600px) {
+    .about-container, .blog-container {
+		left: 10%;
+		top: 170px;
+		width: 80%;
+	}
+}
