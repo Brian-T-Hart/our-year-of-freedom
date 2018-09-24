@@ -15,11 +15,11 @@ p {
 	text-indent: 30px;
 }
 
-.about-body {
+.about-body, .blog-body {
 	padding: 20px 30px;
 }
 
-.about-close-btn {
+.about-close-btn, .blog-close-btn {
 	cursor: pointer;
 	margin: 0;
 	position: absolute;
@@ -27,7 +27,7 @@ p {
 	top: 5px;
 }
 
-.about-container {
+.about-container, .blog-container {
 	animation-duration: 1s;
 	animation-name: aboutContainer;
 	animation-timing-function: linear;
