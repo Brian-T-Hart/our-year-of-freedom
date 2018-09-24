@@ -3,7 +3,11 @@ a {
 	text-decoration: none;
 }
 
-body, html {margin:0;padding:0;height:100%;}
+body, html {
+	height:100%;
+	margin:0;
+	padding:0;
+}
 
 h1 {
 	margin: 0;
@@ -31,7 +35,7 @@ p {
 	animation-duration: 1s;
 	animation-name: aboutContainer;
 	animation-timing-function: linear;
-	background-color: white;
+	background-color: #FFF;
 	border: 1px solid gray;
 	border-radius: 10px;
 	display: none;
@@ -63,7 +67,7 @@ p {
 	animation-duration: 1.4s;
 	animation-name: mainContent;
 	animation-timing-function: linear;
-	background-image: url('https://www.maxpixel.net/static/photo/1x/Nature-Sun-Close-Dandelion-Back-Light-1701549.jpg');
+	background-image: url('images/ouryof_background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
